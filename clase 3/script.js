@@ -12,11 +12,11 @@ console.log("fin del bucle")
 //ciclo for
 
 const frutas = ["uva", "platano", "manzana"]
-for(let i = 0; i <= 5; i++) {
-    //codigo a ejecutar en cada iteracion
+for(let i = 0; i <= 2; i++) {
+//codigo a ejecutar en cada iteracion
+//i = 0, i = 1, i = 2.
+    console.log("tienes que comprar " + frutas [i])
 }
-
-console.log("tienes que comprar " + frutas [i])
 
 
 
