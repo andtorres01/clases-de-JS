@@ -54,3 +54,13 @@ const colonia = [casa0, casa1, casa2]
 //como acceder al contenido de un arreglo? atravez del indice
 
 console.log(colonia[2].propietario)
+
+//ejemplo clase 4
+
+let clima = prompt("¿esta lloviendo?")
+
+ if(clima === "si"){
+    console.log("llevar sombrilla")
+} else{
+    console.log("no llevar sombrilla")
+};
