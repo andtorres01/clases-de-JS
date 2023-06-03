@@ -1,4 +1,4 @@
-//numeral 1
+/*//numeral 1
 let respuestaNumeral1 = prompt("¿eres bellisimo/a?")
 
 if(respuestaNumeral1 === "si"){
@@ -106,3 +106,45 @@ if(topping == 1){
 };
 
 //numeral 10
+let programa = prompt('Seleccione el programa que desea: \n1: Course: $4999MNX \n2: Carrera: $3999MNX \n3: Master $2999MNX');
+let beca = prompt('¿Cuenta con alguna de las siguientes becas? \n1: Beca FB 20% Dcto. \n2: Beca Google 15% Dcto. \n3: Beca Jesua 50% Dcto');
+let course = 9998
+let carrera = 23994
+let master = 35998
+
+if(programa == 1 ){
+    if(beca == 1){
+        document.write(`El programa tiene un costo de $ ${course - (course * 20 /100)} con el Dcto aplicado y su duracion es de 2 meses`);
+    }else if(beca == 2){
+        document.write(`El programa tiene un costo de $ ${course - (course * 15 /100)} con el Dcto aplicado y su duracion es de 2 meses`);
+    }else if(beca == 3){
+        document.write(`El programa tiene un costo de $ ${course - (course * 50 /100)} con el Dcto aplicado y su duracion es de 2 meses`);
+    }else{
+        alert('Datos incorrectos intente nuevamente');
+    }
+}else if(programa == 2){
+    if(beca == 1){
+        document.write(`El programa tiene un costo de $ ${carrera - (carrera * 20 /100)} con el Dcto aplicado y su duracion es de 6 meses`);
+    }else if(beca == 2){
+        document.write(`El programa tiene un costo de $ ${carrera - (carrera * 15 /100)} con el Dcto aplicado y su duracion es de 6 meses`);
+    }else if(beca == 3){
+        document.write(`El programa tiene un costo de $ ${carrera - (carrera * 50 /100)} con el Dcto aplicado y su duracion es de 6 meses`);
+    }else{
+        alert('Datos incorrectos intente nuevamente');
+    }
+}else if(programa == 3){
+    if(beca == 1){
+        document.write(`El programa tiene un costo de $ ${master - (master * 20 /100)} con el Dcto aplicado y su duracion es de 6 meses`);
+    }else if(beca == 2){
+        document.write(`El programa tiene un costo de $ ${master - (master * 15 /100)} con el Dcto aplicado y su duracion es de 6 meses`);
+    }else if(beca == 3){
+        document.write(`El programa tiene un costo de $ ${master - (master * 50 /100)} con el Dcto aplicado y su duracion es de 6 meses`);
+    }else{
+        alert('Datos incorrectos intente nuevamente');
+    }
+}else{
+    alert('Datos incorrectos intente nuevamente');
+};*/
+
+//numeral 11
+
