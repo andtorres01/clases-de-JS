@@ -1,4 +1,4 @@
-/*//numeral 1
+//numeral 1
 let respuestaNumeral1 = prompt("¿eres bellisimo/a?")
 
 if(respuestaNumeral1 === "si"){
@@ -144,7 +144,34 @@ if(programa == 1 ){
     }
 }else{
     alert('Datos incorrectos intente nuevamente');
-};*/
+};
 
 //numeral 11
+let vehiculo = prompt('Indique su Vehiculo');
+let kmt = prompt('¿cuantos kmt recorrio?');
+let coche = 0.20;
+let moto = 0.10;
+let bus = 0.5;
+
+if(vehiculo === 'coche'){
+    if(kmt <= 100){
+        document.write(`El total a pagar es ${(kmt * coche)+ 5} USD`);
+    }else if(kmt > 100){
+        document.write(`El total a pagar es ${(kmt * coche) + 10} USD`);
+    }
+}else if(vehiculo === 'moto'){
+    if(kmt <= 100){
+        document.write(`El total a pagar es ${(kmt * moto) + 5} USD`);
+    }else if(kmt > 100){
+        document.write(`El total a pagar es ${(kmt * moto) + 10} USD`);
+    }
+}else if(vehiculo === 'bus'){
+    if(kmt <= 100){
+        document.write(`El total a pagar es ${(kmt * bus) + 5} USD`);
+    }else if(kmt > 100){
+        document.write(`El total a pagar es ${(kmt * bus) + 10} USD`);
+    }
+}else{
+    alert('datos incorrectos, vuelva a intentarlo')
+};
 
