@@ -9,6 +9,15 @@ if(respuestaNumeral1 === "si"){
     console.log("respuesta no especificada");
 };
 //numeral 2
+let = ingreseNumero = prompt('Digite un numero');
+
+if(ingreseNumero % 2 === 0){
+        alert(ingreseNumero + ' es divisible entre 2');
+}else if(ingreseNumero % 2 !== 0){
+        alert(ingreseNumero + ' No es divisible entre 2');
+}else{
+    alert('intentelo nuevamente');
+};
 
 
 //numeral 3
@@ -174,4 +183,3 @@ if(vehiculo === 'coche'){
 }else{
     alert('datos incorrectos, vuelva a intentarlo')
 };
-
