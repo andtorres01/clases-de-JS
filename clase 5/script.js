@@ -20,17 +20,11 @@
 ejercicio 1
 //js ventanita de aceptar o cancelar -> buscar
 
-function prenderLus(hora, tiempoPrendida){
-    // conectarme a la lampara (IOT)
-    if
-}
-
-
-function prenderLus(hora, horaActual){
+function prenderLuz(hora, horaActual){
     // conectarme a la lampara (IOT)
     if(hora === horaActual) {
         //mandar señal al dispositivo para prenderlo
         alert('prendimos lampara')
         return true;
     }
-}
+};
