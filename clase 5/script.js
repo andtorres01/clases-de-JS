@@ -17,7 +17,7 @@
 //     console.log()
 // };
 
-ejercicio 1
+//ejercicio 1
 //js ventanita de aceptar o cancelar -> buscar
 
 function prenderLuz(hora, horaActual){
